@@ -1,6 +1,6 @@
 ## Bracha's reliable broadcast Quint spec
 
-The spec is heavily based in the pseudocode provided in the paper:
+The spec and its terminology is heavily based in the pseudocode provided in the paper:
 
 ### Pseudocode
 ```
