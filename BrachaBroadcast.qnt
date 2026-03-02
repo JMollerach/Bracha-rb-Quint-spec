@@ -17,6 +17,10 @@ module BrachaBroadcast {
     type Message = {source: int, messageType: str, value: int}
     type Option[a] = Some(a) | None
 
+    type LocalContext = {
+        process_id: int
+    }
+
     type GlobalContext = {
         messages: Set[Message],
         transmitter: int,
